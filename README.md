@@ -8,3 +8,5 @@ Code: **conda create -p .venv python==3.10 -y or $ python -m venv .venv**
 
 - Activate the environment using following code: 
 **conda activate .venv/ or $source .venv/Scripts/activate**
+- to install libraries
+**pip install -r requirements.txt**
