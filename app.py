@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 
  #Setup the local environment for the Google API key
-genai.configure(api_key = os.getenv("GOOGLE-API-KEY"))
+genai.configure(api_key = "AIzaSyBm4WwkBWw85kt0rsDzXH4rnJKVtQlkOmk")
  
  #Gen AI Model
 model = genai.GenerativeModel('gemini-pro')
